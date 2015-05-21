@@ -12,7 +12,6 @@
 		446939A41B0E5160007104EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446939A31B0E5160007104EE /* ViewController.swift */; };
 		446939A71B0E5160007104EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446939A51B0E5160007104EE /* Main.storyboard */; };
 		446939A91B0E5160007104EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446939A81B0E5160007104EE /* Images.xcassets */; };
-		446939AC1B0E5160007104EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446939AA1B0E5160007104EE /* LaunchScreen.xib */; };
 		446939B81B0E5160007104EE /* Tank_AttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446939B71B0E5160007104EE /* Tank_AttackTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		446939A31B0E5160007104EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		446939A61B0E5160007104EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		446939A81B0E5160007104EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		446939AB1B0E5160007104EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		446939B11B0E5160007104EE /* Tank AttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tank AttackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446939B61B0E5160007104EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446939B71B0E5160007104EE /* Tank_AttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank_AttackTests.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				446939A31B0E5160007104EE /* ViewController.swift */,
 				446939A51B0E5160007104EE /* Main.storyboard */,
 				446939A81B0E5160007104EE /* Images.xcassets */,
-				446939AA1B0E5160007104EE /* LaunchScreen.xib */,
 				446939A01B0E5160007104EE /* Tank_Attack.xcdatamodeld */,
 				4469399C1B0E5160007104EE /* Supporting Files */,
 			);
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				446939A71B0E5160007104EE /* Main.storyboard in Resources */,
-				446939AC1B0E5160007104EE /* LaunchScreen.xib in Resources */,
 				446939A91B0E5160007104EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,14 +242,6 @@
 				446939A61B0E5160007104EE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		446939AA1B0E5160007104EE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				446939AB1B0E5160007104EE /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
